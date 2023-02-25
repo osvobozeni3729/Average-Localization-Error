@@ -1,0 +1,24 @@
+Average Localization Error (ALE) in sensor node localization process in WSNs Data Set
+
+This data set can be used to test any regression-based machine learning algorithm. 
+You can predict the ALE variable using four features.
+
+Data Set Information:
+
+This data contains 6 columns (107x6). The first four columns are features, 
+namely anchor ratio, the transmission range of a sensor, node density (here no. of sensor nodes), 
+and iteration count. 
+The fifth column is ALE (predictand) and the last column is the standard deviation value
+ (you may ignore this column if not interested in the error in ALE). 
+This data set is generated from modified Cuckoo search simulations.
+Anyone can use this data with proper acknowledgment/citation.
+
+Attribute Information:
+
+This data contains four features and one predictand.
+Features are;
+1. Anchor ratio
+2. Transmission range (measured in meters)
+3. Node density and
+4. Iteration
+The predictand is ALE (measured in meters)
